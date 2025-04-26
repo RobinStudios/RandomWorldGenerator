@@ -1,0 +1,53 @@
+body {
+  background-color: #0d0d2b;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.world-output {
+  background-color: #1e1e40;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.copy-btn {
+  background-color: #22c55e;
+}
+
+.copy-btn:hover {
+  background-color: #16a34a;
+}
